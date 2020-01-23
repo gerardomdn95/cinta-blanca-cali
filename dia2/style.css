@@ -1,0 +1,48 @@
+/* Afectar a todos los elementos del sitio */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+p:hover {
+    color: chartreuse;
+}
+
+body {
+    background: lightblue;
+}
+
+#siete {
+    color: gold;
+}
+
+.par {
+    color: green;
+}
+
+.impar {
+    color: blue;
+}
+
+.caja {
+    height: 100px;
+    background: green;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+
+.cajita {
+    height: 50px;
+    width: 50px;
+    background: hotpink;
+    border: 3px dashed blue;
+}
