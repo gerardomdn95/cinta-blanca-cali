@@ -1,0 +1,43 @@
+.main-container {
+    height: 1000px;
+    background: cornflowerblue;
+    color: white;
+
+    /* Va dentro del contenedor */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+
+.box h1 {
+    color: white;
+}
+
+.is-blueviolet {
+    background-color: blueviolet;
+}
+
+.is-red {
+    background-color: red;
+}
+
+.is-yellow {
+    background-color: yellow;
+}
+
+.is-orange {
+    background-color: orange;
+}
+
+.is-black {
+    background-color: black;
+}
